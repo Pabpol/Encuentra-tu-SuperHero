@@ -1,0 +1,83 @@
+*{font-family: 'Comic Neue', cursive;}
+
+body{
+
+  background-image: url(56000034-gris-claro-de-la-textura-de-papel-reciclado-con-espacio-de-copia.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+@media (max-width: 600px) {
+  .colorSub  {
+    font-size: 10px; 
+  }
+}
+.card-title{
+  font-weight: 700;
+}
+
+#lead{
+  font-weight: 400;
+  color: #363434;
+  
+}
+
+.jumbotron {
+    background-image: url("portada1.jpg");
+    background-size: cover;
+    background-attachment: fixed ;
+    background-position: center;
+    height: 20rem;
+  }
+
+  @media (max-width: 576px) {
+    .jumbotron  {
+      height: 15rem !important; 
+    }
+  }
+  .card#overlap {
+    background-image: url("comic-background.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: -5rem;
+    height: 17em;
+    box-shadow: 0 0 50px rgba(83, 18, 24, 0.671);
+    border-radius: 1rem;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #nombreSuperHero{
+    font-weight: 700;
+  }
+
+#imgSuperHero, #imgIncognito{
+  box-shadow: 0 0 50px rgba(83, 18, 24, 0.671);
+  border-radius: 1rem;
+  transition: transform .5s;
+}
+
+#imgSuperHero:hover{
+  
+  box-shadow: 0 0 50px rgb(196, 168, 9) !important;
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+
+  .mt-sm-5, .my-sm-5 {
+    margin-top: 5rem !important;
+}
+
+#statSuperHero, #infoSuperHero{
+  display: none;
+}
+
+  #chartdiv {
+    width: 100%;
+    height: 600px;
+  }
+
